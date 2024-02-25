@@ -14,13 +14,13 @@ from sqlalchemy.ext.declarative import declarative_base
 # HOST // BASE DE DATOS
 
 
-DIALECT = 'oracle'
-SQL_DRIVER = 'cx_oracle'
-USERNAME = 'rosi_efis'  # Ingresa tu nombre de usuario
-PASSWORD = 'rosi_efis'  # Ingresa tu contraseña
-HOST = '10.30.205.127'  # Ingresa la URL del host de Oracle
-PORT = 1521  # Ingresa el número de puerto de Oracle
-SERVICE = 'fisco'  # Ingresa el nombre del servicio de Oracle
+DIALECT = ''
+SQL_DRIVER = ''
+USERNAME = ''  # Ingresa tu nombre de usuario
+PASSWORD = ''  # Ingresa tu contraseña
+HOST = ''  # Ingresa la URL del host de Oracle
+PORT =   # Ingresa el número de puerto de Oracle
+SERVICE = ''  # Ingresa el nombre del servicio de Oracle
 
 ENGINE_PATH_WIN_AUTH = (
     DIALECT + '+' + SQL_DRIVER + '://' + USERNAME + ':' + PASSWORD +
